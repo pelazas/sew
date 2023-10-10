@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="carlos garcia pelazas" />
+    <meta name="description" content="aqui cada documento debe tener la 
+        descripción del contenido concreto del mismo"/>
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista
+        de las palabras clave del mismo separadas por comas" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>Escritorio Virtual</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel=icon href=multimedia/imagenes/favicon.ico sizes="32x32" type="image/png" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Escritorio virtual</h1>
+        <nav>
+            <a href="index.html" tabindex="1" accesskey="I">Inicio</a>
+            <a href="sobremi.html" tabindex="2" accesskey="S">Sobre mí</a>
+            <a href="noticias.html" tabindex="3" accesskey="N">Noticias</a>
+            <a href="agenda.html" tabindex="4" accesskey="A">Agenda</a>
+            <a href="meteorologia.html" tabindex="5" accesskey="M">Meteorología</a>
+            <a href="viajes.html" tabindex="6" accesskey="V">Viajes</a>
+            <a href="juegos.html" tabindex="7" accesskey="J">Juegos</a>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Carlos García Pelazas</p>
+        <p>uo287891@uniovi.es</p>
+        <p>SOy Carlos Pelazas, alumno de tercero de ingenieria del software, profesor de esqui y trabajo para una startup.</p>
+        <picture>
+            <source srcset="multimedia/imagenes/mifoto3.jpg" media="(max-width: 465px)" />
+            <source srcset="multimedia/imagenes/mifoto2.jpg" media="(max-width: 799px)" />
+            <img src="multimedia/imagenes/mifoto.jpg" alt="Foto de perfil"/>
+        </picture>
+    </section>  
+
+    <section>
+        <h2>Aficiones</h2>
+        <ul>
+            <li>Futbol
+                <ul>
+                    <li><a href="https://www.realmadrid.com/">Real Madrid</a></li>
+                    <li>Cristiano Ronaldo</li>
+                    <li>Mourinho</li>
+                </ul>
+            </li>
+            <li>Esqui</li>
+            <li>Emprendimiento</li>
+            <li>Leer</li>
+            <li>Viajar</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Grupos musicales o cantantes favoritos</h2>
+        <ol>
+            <li>Justin Bieber</li>
+            <li>Kiko Rivera</li>
+            <li>Juan Magan</li>
+            <li>Perales</li>
+            <li>Julio Iglesias</li>
+        </ol>
+    </section>
+
+    <article>
+        <!-- No tiene que ver estrictamente con el contenido de Sobre mi-->
+        <h2>Video relajante</h2>
+        <video controls>
+            <source src="multimedia/videos/mivideo.mp4" type="video/mp4" />
+            <source src="multimedia/videos/mivideo.mov" type="video/mov" />
+        </video>
+    </article>
+    
+
+    <article>
+        <!-- No tiene que ver estrictamente con el contenido de Sobre mi-->
+        <h2>Audio relajante</h2>
+        <audio controls>
+            <source src="multimedia/audios/miaduio.mp3" type="audio/mp3">
+            <source src="multimedia/audios/miaduio.wav" type="audio/wav">
+        </audio>
+    </article>
+
+    <section>
+        <h2>Asignaturas del grado que más me han gustado</h2>
+        <dl>
+            <dt>Álgebra</dt>
+            <dd>Álgebra es una asignatura del primer semestre de primero de carrera, es del departamento de mátematicas. El profesor fue muy bueno</dd>
+            <dt>Arquitectura de computadores</dt>
+            <dd>Arquitectura de computadores es una asignatura del primer semestre de segundo, es del departamento de soporte fisico y hardware. La aprobe en junio pero aún asi me gustó mucho</dd>
+            <dt>Metodología de la programación</dt>
+            <dd>Metodología de la programación es una asignatura del segundo semestre de primero de carrera, es del departamento de programación. Fué la primera vez que sentí que mis habilidades de programación eran utiles en la vida real</dd>
+            <dt>Estructura de datos</dt>
+            <dd>Estructura de datos es una asignatura del primer semestre de segundo, es del departamento de programación. Muy útil, buen profesor de prácticas</dd>
+            <dt>Algoritmia</dt>
+            <dd>Algoritmia es una asignatura del segundo semestre de segundo, es del departamento de programación. Muy útil</dd>
+        </dl>
+    </section>
+
+    <aside>
+        <h2>Tabla de temperaturas</h2>
+        <table>
+            <caption>Oviedo | 2014 - 2022</caption>
+            <thead>
+                <tr>
+                    <th>2014</th>
+                    <th>2015</th>
+                    <th>2016</th>
+                    <th>2017</th>
+                    <th>2018</th>
+                    <th>2019</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                    <th>2022</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>13.5ºC</td>
+                    <td>13.4ºC</td>
+                    <td>13.2ºC</td>
+                    <td>13.3ºC</td>
+                    <td>13.1ºC</td>
+                    <td>13.2ºC</td>
+                    <td>13.8ºC</td>
+                    <td>13.0ºC</td>
+                    <td>14.0ºC</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+
+    <section>
+        <h2>Sitios web de interes</h2>
+        <ul>
+            <li><a href="https://www.realmadrid.com/">Real Madrid</a></li>
+            <li><a href="https://www.vivra.io/">Vivra</a></li>
+        </ul>
+    </section>
+    
+</body>
+</html>
